@@ -6,6 +6,7 @@ namespace HelloWorldRestAPI.Controllers
     [Route("[controller]")]
     public class HelloWorldController : ControllerBase
     {
+        //sampe update to trigger push
         private static readonly string[] Summaries = new[]
         {
         "Good Morning", "Good Afternoon", "Good Evening","Good Night","Good Day"
